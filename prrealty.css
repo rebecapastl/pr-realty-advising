@@ -1,0 +1,159 @@
+body { 
+	background-color: #FFFFFF;
+    color: #000000;
+    font-family: Verdana, Arial, sans-serif; 
+    background-size: 100px auto;
+    margin: 0;
+}
+
+/*header*/
+header {    
+	background-image: url(images/logo.png);
+    background-size: 100% 100%;
+    height: 300px;
+    position: relative;
+}
+h2 {
+	color: #FFFFFF;
+}
+#artist {   
+	position: absolute;
+    bottom: -30px;
+    right: 0;
+    font-size: 80%;
+}
+
+/*Navigation bar*/
+nav {   
+	text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-top: 5px;
+}
+nav a { 
+	text-decoration: none;
+    padding-right: 50px;
+}
+a:link {
+	color: #0E4671;
+}
+a:visited {
+	color: #5FC1CA;
+}
+a:hover {
+	color: #4282A3;
+}
+a   {
+	text-decoration: none;
+}
+p { 
+	text-align: justify;
+    padding-bottom: 10px;
+    line-height: 30px;
+}  
+ul {
+	padding-left: 10px;
+}
+li {
+	padding-bottom: 15px;
+}
+
+/*Dropdown menu*/
+nav ul {    
+	list-style-type: none;
+}
+nav li {    
+	display: inline-block;
+}
+nav ul ul { 
+	position:absolute;
+    display: none;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+nav li:hover ul {   
+	display: block;
+    padding-top: 10px;
+    font-size: .8em;
+}
+nav ul li { 
+	position: relative;
+}
+nav ul ul li {  
+	display: block;
+    width: 14em;
+    margin-bottom: 2px;
+}
+
+/*Main*/
+#wrapper {  
+    width: 90%;
+    background-color: #FFFFFF;
+    min-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: calc(100vh - 300px - 80px);
+}
+#maintext {
+    text-align: center;
+    padding-top: 100px;
+}
+.edittext {
+    padding-left: 40px;
+    font-size: 120%;
+}
+form {
+	padding-top: 10px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+fieldset{
+    margin-bottom: 20px;
+}
+input {
+	display: block;
+	margin-bottom: 10px;
+}
+legend {
+	margin-bottom: 5px;
+}
+
+/*Footer*/
+footer {
+	background-color: #FFFFFF;
+    font-size: 0.60em;
+    font-style: italic;        
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+}
+
+/*Images*/
+.column {
+	float: left;
+  	width: calc(80vw/3);
+  	padding: 5px;
+}
+figcaption {    
+	padding-right: 20px;
+    font-size: 80%;
+}
+
+/*Queries*/
+
+table, td, th {
+    border: 1px solid #5FC1CA;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+th{
+    color: #5FC1CA;
+}
+
+table {
+    margin: 15px;
+}
