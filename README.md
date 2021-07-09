@@ -14,20 +14,17 @@ Customers website development:
 - Rebeca Pastl
 - Developed using PHP, SQL, CSS and HTML.
 
-Properties website development:
-- Seth Robichaud 
-
 ## Prerequisites
 Currently to run PR Realty Advising website you will need to have the following programs installed:
 - Internet browser
 - WAMP Server
 
 ### WAMP Server
-- Download WAMP Server from this ![Source Forge](https://sourceforge.net/projects/wampserver/)
+- Download WAMP Server from this [Source Forge](https://sourceforge.net/projects/wampserver/)
 - Install it following the default settings
 - Make sure that it is up and running (green W icon in the taskbar notification area)
 
-## Installing
+## Installation
 - Download the repo files
 - Rename the folder containing the files as 'pr-realty-advising' (or the name you prefer)
 - Copy the files folder to the server folder on the path c:\wamp64\www (if you changed the installation folder, go to the path c:\your-path\your-folder\wamp64\www)
@@ -35,24 +32,26 @@ Currently to run PR Realty Advising website you will need to have the following 
 - The files in the folder 'pr-realty-advising', stored at c:\wamp64\www, will be served (if you have changed the installation folder and chosen a different name for the files folder, the files in 'name-you-prefer-folder', stored at c:\your-path\your-folder\wamp64\www, will be served)
 
 ## Usage examples
-Insert Customer
-![insert-customer](https://github.com/rebecapastl/pr-realty-advising/blob/master/videos/pr-realty-advising-insert-customer.gif)
+Insert customer
+![insert-customer](https://github.com/rebecapastl/pr-realty-advising/blob/main/videos/pr-realty-advising-insert-customer.gif)
 
 Query database
-![query](https://github.com/rebecapastl/pr-realty-advising/blob/master/videos/pr-realty-advising-queries.gif)
+![query](https://github.com/rebecapastl/pr-realty-advising/blob/main/videos/pr-realty-advising-queries.gif)
 
 ## Citations
 
 - Banner image  
-Author: ![Jeffrey Czum](https://www.pexels.com/@jeffrey-czum-254391)  
-Web address: https://www.pexels.com/photo/four-colourful-houses-2501965/
+Author: [Jeffrey Czum](https://www.pexels.com/@jeffrey-czum-254391)  
+Image address: https://www.pexels.com/photo/four-colourful-houses-2501965/
  
-- Edit Table images  
-Author: ![Athul Ben](https://unsplash.com/@gudguyben)    
-Web address: https://unsplash.com/photos/3-Rp9xLMI6k  
+- Edit Table > Insert image  
+Author: [Athul Ben](https://unsplash.com/@gudguyben)    
+Image address: https://unsplash.com/photos/3-Rp9xLMI6k  
 
-Author: ![Raychan](https://unsplash.com/@wx1993)    
-Web address: https://unsplash.com/photos/e_J7i3eQEfo 
+- Edit Table > Update image  
+Author: [Raychan](https://unsplash.com/@wx1993)    
+Image address: https://unsplash.com/photos/e_J7i3eQEfo 
 
-Author: ![u j e s h](https://unsplash.com/@ujesh)      
-Web address: https://unsplash.com/photos/7ySd00IGyx4 
+- Edit Table > Delete image  
+Author: [u j e s h](https://unsplash.com/@ujesh)      
+Image address: https://unsplash.com/photos/7ySd00IGyx4 
